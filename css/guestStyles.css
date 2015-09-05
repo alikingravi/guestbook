@@ -1,0 +1,146 @@
+/*  ---------------------------------------------------------------------------
+ *  Author     : Ali A. Kingravi
+ *	Website    : www.alikingravi.com
+ *  ---------------------------------------------------------------------------*/
+
+*{margin: 0;padding: 0;}
+/* MAIN STYLES
+-------------------------------------------------------------- */
+html, body {height: 100%;}
+img {max-width: 100%;}
+h1,h1,h2,h3,h4,h5,p{font-family: 'Droid Serif', sans-serif;color: #A2A0A0;}
+h1{font-size: 4em;}
+h2{font-size: 1.6em;}
+hr{border: 1px solid #d9d9d9;}
+
+/* Helper Classes
+-------------------------------------------------------------- */
+.red{color: #ff0000;}
+.orange{color: #FF7400;}
+.grey{color: #FFFFFF;}
+.yellow{color: #fcff00;}
+.lime{color: #4eff00;}
+.blue{color: #00fff0;}
+.purple{color: #fd33de;}
+.green{color: #0ca805;}
+.error{color: red;}
+/* ------------------------------------------------------------------------ */
+/* LOGIN PAGE */
+/* ------------------------------------------------------------------------ */
+.login-header{
+	text-align: center;
+	padding-top: 40px;
+}
+.login-box{
+	margin-top: 40px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.login-box h3,p{text-align: left;}
+.login-box ul{
+	text-align: left;
+	margin: 10px 0px 10px 20px;
+	color: #0eb9ea;
+}
+.register-box{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	max-width: 960px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.register-box input{
+	width: 400px;
+}
+
+/* ------------------------------------------------------------------------ */
+/* GUEST PAGE */
+/* ------------------------------------------------------------------------ */
+.welcome-user p{
+	text-align: center;
+	padding-top: 20px;
+}
+.guest-header{
+	width: 220px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.guest-messages{
+	width: 700px;
+	/*height: 200px;*/
+	font-style: italic;
+	margin: 40px auto;
+	border-top: 1px solid #A2A0A0;
+	border-bottom: 1px solid #A2A0A0;
+	padding: 5px;
+}
+.guest-messages h4{
+	
+	color: #018eac;
+	display: inline-block;
+}
+.guest-messages h5{
+	color: #92791C;
+	font-size: 12px;
+	display: inline-block;
+}
+.write-message{
+	width: 700px;
+	margin: 40px auto;
+}
+.logout-btn{
+	text-decoration: underline;
+	margin-left: 5px;
+}
+.logout-btn:hover{
+	text-decoration: underline;
+	color: #1a1a1a;
+}
+
+/* ------------------------------------------------------------------------ */
+/* THANKYOU PAGE */
+/* ------------------------------------------------------------------------ */
+
+.thanks{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.thanks h3{font-family: 'Playball', cursive; font-size: 30px;}
+.thanks p{
+	text-align: center;
+}
+.thanks a:hover{
+	text-decoration: underline;
+}
+/* ------------------------------------------------------------------------ */
+/* WOOPS PAGE */
+/* ------------------------------------------------------------------------ */
+
+.woops{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.woops h3{font-family: 'Playball', cursive; font-size: 30px; color: #ff0000;}
+.woops p{
+	text-align: center;
+	color: #ff0000;
+}
+.woops a:hover{
+	text-decoration: underline;
+}
